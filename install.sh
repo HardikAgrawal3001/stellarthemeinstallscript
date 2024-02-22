@@ -1,8 +1,14 @@
-cd /var/www/
+apt install npm
+y
+npm install --global yarn
+npm install -g n
+n 14.17.3
+n prune
+cd /var/www/pterodactyl
 wget https://github.com/HardikAgrawal3001/stellarthemeinstallscript/raw/main/pterodactyl.zip
 unzip pterodactyl.zip
-cd /var/www/pterodactyl
-yarn add react-feather
+sudo yarn add react-feather
 php artisan migrate
-yarn build:production
+yes
+sudo yarn build:production
 php artisan view:clear
