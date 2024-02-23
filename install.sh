@@ -7,6 +7,7 @@ n prune
 cd /var/www/pterodactyl
 wget https://github.com/HardikAgrawal3001/stellarthemeinstallscript/raw/main/pterodactyl.zip
 unzip pterodactyl.zip
+A
 sudo yarn add react-feather
 php artisan migrate
 yes
