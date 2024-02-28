@@ -8,6 +8,5 @@ wget https://github.com/HardikAgrawal3001/stellarthemeinstallscript/raw/main/pte
 unzip pterodactyl.zip
 sudo yarn add react-feather
 php artisan migrate
-yes
 sudo yarn build:production
 php artisan view:clear
