@@ -1,4 +1,4 @@
-apt install npm
+apt install npm -y
 npm install --global yarn
 npm install -g n
 n 14.17.3
